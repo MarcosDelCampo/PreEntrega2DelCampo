@@ -1,0 +1,389 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navegador {
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoNombre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoNav {
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+}
+
+.navegador > ul {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+
+.navegador > ul > li > a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.buscar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.indexHeader{
+    background-image: url(../img/img_header.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+.indexHeaderInfo{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+    align-items: center;
+    gap: 150px;
+}
+
+.indexHeaderInfo > h1 {
+    padding: 20px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: black;
+    color: goldenrod;
+    font-size: 15px;
+    border-style: solid;
+    border-color: goldenrod;
+    padding: 5px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.main{
+    background-color: black;
+    color: white;
+}
+
+.main > p {
+    padding: 20px;
+}
+
+.subtitulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+.promosExclu{
+    display: flex;
+    color: white;
+}
+
+.alquileres{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url(../img/img_alquileres.jpg);
+    width: 50%;
+    height: 250px;
+    background-size: cover;
+    padding: 15px;
+}
+
+.compras{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url(../img/img_compras.jpg);
+    width: 50%;
+    height: 250px;
+    background-size: cover;
+    padding: 15px;
+}
+
+.tarjetas{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetaProdu{
+    width: 350px;
+    height: 400px;
+    background-size: cover;
+    border: 2px;
+    border-color: goldenrod;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.tarjetaProdu > h3{
+    background-color: black;
+}
+
+.tarjetaProdu > p{
+    background-color: black;
+}
+
+.videoRefe{
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonios{
+    font-weight: bold;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjetaTestimonio{
+    background-color: white;
+    color: black;
+    display: flex;
+    margin: 20px;
+    height: 200px;
+}
+
+.tarjetaTestimonio > img {
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    padding: 10px;
+}
+
+.tarjetaTestimonioInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100px;
+    gap: 30px;
+    padding: 30px;
+}
+
+.footerImg {
+    display: flex;
+    gap: 20px;
+}
+
+.footerImg > img {
+    height: 30px;
+    width: 30px;
+}
+
+.formulario {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.formulario label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.formulario textarea {
+    width: 500px;
+    height: 300px;
+}
+
+.formulario input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.ubicacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mapa {
+    width: 300px;
+    height: 300px;
+}
+
+.ubicacionInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 5px;
+    gap: 20px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+.menu h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-color: white;
+    border-style: solid;
+    padding: 5px;
+    border-width: 1px;
+    text-decoration: none;
+    color: white;
+}
+.elegirnos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.tipoServicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tipoServicio img {
+    width:400px;
+    background-size: cover;
+    margin: 20px;
+}
+
+.tipoServicio p {
+    display: block;
+    padding: 20px;
+}
+
+.tarjetaServicios {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.botones {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnDoble {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.empresaInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    margin: 5px;
+}
+
+.nuestra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nuestraImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nuestraImg img {
+    width: 50%;
+    height: 300px;
+    background-size: cover;
+}
+
+.nuestra p {
+    padding: 20px;
+}
+
+.equipo {
+    display: flex;
+}
