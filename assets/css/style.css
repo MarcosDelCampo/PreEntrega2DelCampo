@@ -5,42 +5,20 @@
 
 .navegador {
     background-color:black;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logoNombre {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.logoNav {
-    height: 80px;
-    width: 80px;
-    background-size: cover;
-}
-
-.navegador > ul {
-    display: flex;
-    justify-content: end;
-    list-style-type: none;
 }
 
 .navegador > ul > li > a {
-    display: block;
     text-decoration: none;
     color: white;
-    padding: 10px;
-    font-size: 20px;
-    margin: 10px;
 }
 
-.buscar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin-bottom: 10px;
+.logoNav {
+    height: 10vh;
+    width: auto;
+    background-size: cover;
+}
+.navegador > ul {
+    list-style-type: none;
 }
 
 .indexHeader{
@@ -193,6 +171,19 @@
     padding: 10px;
 }
 
+.tarjetaTestimonioBootstrap{
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    height: 60%;
+}
+
+.tarjetaTestimonioBootstrap > img {
+    height: 25%;
+    width: 25%;
+    background-size: cover;
+}
+
 .tarjetaTestimonioInfo{
     display: flex;
     flex-direction: column;
@@ -202,78 +193,33 @@
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: black;
     color: white;
-    height: 100px;
-    gap: 30px;
-    padding: 30px;
-}
-
-.footerImg {
-    display: flex;
-    gap: 20px;
 }
 
 .footerImg > img {
-    height: 30px;
-    width: 30px;
+    height: 5vh;
+    width: auto;
 }
 
-.formulario {
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+
+.formulario > div >label {
+    width: 100%;
 }
 
-.formulario label {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
+.formulario > div > label > textarea {
+    width: 100%;
 }
 
-.formulario textarea {
-    width: 500px;
-    height: 300px;
-}
-
-.formulario input {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 40px;
-    margin-top: 5px;
-}
-
-.ubicacion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.formulario > div > input {
+    width: 40%;
 }
 
 .mapa {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
+    border-style:0;
 }
-
-.ubicacionInfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    padding: 5px;
-    gap: 20px;
-}
-
 .menu{
     display: flex;
     flex-direction: column;
@@ -362,39 +308,9 @@
     margin-bottom: 20px;
 }
 
-.empresaInfo {
+.buscar {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 10px;
-    gap: 10px;
-    margin: 5px;
-}
-
-.nuestra {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.nuestraImg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.nuestraImg img {
-    width: 50%;
-    height: 300px;
-    background-size: cover;
-}
-
-.nuestra p {
-    padding: 20px;
-}
-
-.equipo {
-    display: flex;
 }
