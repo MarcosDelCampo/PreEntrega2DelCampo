@@ -2,6 +2,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* NAVEGADOR SIN BOOTSTRAP
 
 .navegador {
     background-color:black;
@@ -20,7 +21,14 @@
 .navegador > ul {
     list-style-type: none;
 }
+*/
 
+.headerImg {
+    height: 400px;
+    object-fit: cover;
+}
+
+/*header viejo
 .indexHeader{
     background-image: url(../img/img_header.jpg);
     width: 100%;
@@ -41,7 +49,7 @@
 .indexHeaderInfo > h1 {
     padding: 20px;
 }
-
+*/
 .titulo {
     display: flex;
     align-items: center;
