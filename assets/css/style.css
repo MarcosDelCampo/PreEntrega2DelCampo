@@ -1,8 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-align: center;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+}
+
+.subtitulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  font-family: "Karla", sans-serif;
+}
+
+.header {
+  font-family: "Karla", sans-serif;
 }
 
 .headerImg {
@@ -16,15 +41,6 @@
     height: 200px;
   }
 }
-.titulo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-weight: bold;
-  text-align: center;
-}
-
 .btn {
   background-color: black;
   color: goldenrod;
@@ -34,6 +50,7 @@
   padding: 5px;
   font-weight: bold;
   width: 200px;
+  font-family: "Karla", sans-serif;
 }
 
 @media (max-width: 350px) {
@@ -48,14 +65,7 @@
 }
 .main > p {
   padding: 20px;
-}
-
-.subtitulo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  padding: 20px 20px 20px 20px;
+  font-family: "Karla", sans-serif;
 }
 
 .promosExclu {
@@ -134,9 +144,11 @@
 }
 .tarjetaProdu > h3 {
   background-color: black;
+  font-family: "Karla", sans-serif;
 }
 .tarjetaProdu > p {
   background-color: black;
+  font-family: "Karla", sans-serif;
 }
 
 @media (max-width: 450px) {
@@ -160,6 +172,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  font-family: "Karla", sans-serif;
 }
 
 .tarjetaTestimonio {
@@ -190,6 +203,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 15px;
+  font-family: "Karla", sans-serif;
 }
 
 .tarjetaTestimonioBootstrap {
@@ -197,6 +211,7 @@
   color: black;
   overflow: hidden;
   height: 60%;
+  font-family: "Karla", sans-serif;
 }
 .tarjetaTestimonioBootstrap > img {
   height: 25%;
@@ -207,6 +222,7 @@
 .footer {
   background-color: black;
   color: white;
+  font-family: "Karla", sans-serif;
 }
 .footer .footerImg > img {
   height: 7vh;
@@ -215,6 +231,7 @@
 
 .formulario > div > label {
   width: 100%;
+  font-family: "Karla", sans-serif;
 }
 
 .formulario > div > label > textarea {
@@ -247,6 +264,7 @@
   width: 100%;
   text-decoration: none;
   color: white;
+  font-family: "Karla", sans-serif;
 }
 .menu h2 {
   display: flex;
@@ -260,6 +278,7 @@
   border-width: 1px;
   text-decoration: none;
   color: white;
+  font-family: "Karla", sans-serif;
 }
 
 .elegirnos {
@@ -296,6 +315,7 @@
   display: block;
   padding: 20px;
   text-align: center;
+  font-family: "Karla", sans-serif;
 }
 
 @media (max-width: 450px) {
@@ -331,4 +351,5 @@
 
 .ubicacion h4 {
   font-size: 15px;
+  font-family: "Karla", sans-serif;
 }/*# sourceMappingURL=style.css.map */
