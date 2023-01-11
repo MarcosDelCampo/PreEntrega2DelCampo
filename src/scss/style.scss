@@ -1,0 +1,341 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.headerImg {
+    height: 300px;
+    object-fit: cover;
+}
+
+@media (max-with: 300px){
+    .headerImg {
+        height: 200px;
+    }
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn {
+    background-color: black;
+    color: goldenrod;
+    font-size: 15px;
+    border-style: solid;
+    border-color: goldenrod;
+    padding: 5px;
+    font-weight: bold;
+    width: 200px;
+
+}
+
+@media (max-width: 350px) {
+    .btn {
+        width: 100%;
+        font-size: 10px;
+    }
+}
+
+.main{
+    background-color: black;
+    color: white;
+    > p {
+        padding: 20px;
+    }
+}
+
+.subtitulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px 20px 20px 20px;
+}
+
+.promosExclu{
+    display: flex;
+    color: white;
+}
+
+@media (max-width: 400px){
+    .promosExclu{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.alquileres{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url(../img/img_alquileres.jpg);
+    width: 50%;
+    height: 250px;
+    background-size: cover;
+    padding: 15px;
+    overflow: hidden;
+}
+
+@media (max-width: 400px){
+    .alquileres{
+        width: 100%;
+    }
+}
+
+.compras{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: url(../img/img_compras.jpg);
+    width: 50%;
+    height: 250px;
+    background-size: cover;
+    padding: 15px;
+    overflow: hidden;
+}
+
+@media (max-width: 400px){
+    .compras{
+        width: 100%;
+    }
+}
+
+.tarjetas{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1200px){
+    .tarjetas{
+        flex-wrap: wrap;
+    }
+}
+
+.tarjetaProdu{
+    width: 350px;
+    height: 400px;
+    background-size: cover;
+    border: 2px;
+    border-color: goldenrod;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    overflow: hidden;
+    margin: 5px 0px;
+    > h3{
+        background-color: black;
+    }
+    > p{
+        background-color: black;
+    }
+}
+
+@media (max-width: 450px){
+    .tarjetaProdu{
+        width: 80%;
+        height: 280px;
+    }
+}
+
+.videoRefe{
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.testimonios{
+    font-weight: bold;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tarjetaTestimonio{
+    background-color: white;
+    color: black;
+    display: flex;
+    margin: 20px;
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    > img {
+        width: 80px;
+        height: 80px;
+        background-size: cover;
+        padding: 10px;
+    }
+}
+@media (max-width: 400px){
+    .tarjetaTestimonio{
+        margin: 10px;
+        width: 100%;
+    }
+}
+
+.tarjetaTestimonioInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.tarjetaTestimonioBootstrap{
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    height: 60%;
+    > img {
+        height: 25%;
+        width: 25%;
+        background-size: cover;
+    }
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    .footerImg > img {
+        height: 7vh;
+        width: auto;
+}
+}
+
+.formulario > div > label {
+    width: 100%;
+}
+
+.formulario > div > label > textarea {
+    width: 100%;
+}
+
+.formulario > div > input {
+    width: 40%;
+}
+
+.mapa {
+    width: 100%;
+    height: 100%;
+    border-style:0;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+        a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-decoration: none;
+        color: white;
+        }
+        h2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            border-color: white;
+            border-style: solid;
+            padding: 5px;
+            border-width: 1px;
+            text-decoration: none;
+            color: white;
+        }
+}
+
+.elegirnos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+        > video {
+            overflow: hidden;
+            width: 80%;
+        }
+}
+
+@media (max-width: 450px){
+    .elegirnos > video {
+        width: 100%;
+    }
+}
+
+.tipoServicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        img {
+            width:60%;
+            background-size: cover;
+            margin: 20px 0px;
+            overflow: hidden;
+        }
+        p {
+            display: block;
+            padding: 20px;
+            text-align: center;
+        }
+}
+
+@media (max-width: 450px){
+    .tipoServicio img{
+        width: 100%;
+    }
+}
+
+.tarjetaServicios {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btnDoble {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.buscar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.ubicacion h4 {
+    font-size: 15px;
+}
