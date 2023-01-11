@@ -1,0 +1,19 @@
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $colorPrincipal;
+    color: $colorTerciario;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+.subtitulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $colorTerciario;
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
+}

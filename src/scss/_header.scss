@@ -1,0 +1,14 @@
+.header {
+    font-family: 'Karla', sans-serif;
+}
+
+.headerImg {
+    height: 300px;
+    object-fit: cover;
+}
+
+@media (max-with: 300px){
+    .headerImg {
+        height: 200px;
+    }
+}
