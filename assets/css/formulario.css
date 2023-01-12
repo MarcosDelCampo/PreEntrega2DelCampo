@@ -1,0 +1,12 @@
+.formulario > div > label {
+  width: 100%;
+  font-family: "Karla", sans-serif;
+}
+
+.formulario > div > label > textarea {
+  width: 100%;
+}
+
+.formulario > div > input {
+  width: 40%;
+}/*# sourceMappingURL=formulario.css.map */

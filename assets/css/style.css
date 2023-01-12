@@ -10,7 +10,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
   color: white;
   font-weight: bold;
   text-align: center;
@@ -24,6 +23,19 @@
   color: white;
   padding: 20px;
   font-family: "Karla", sans-serif;
+}
+
+.tituloIndex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  padding: 10px;
+  margin: 0px;
+  background-color: black;
 }
 
 .header {
@@ -41,6 +53,11 @@
     height: 200px;
   }
 }
+.carousel {
+  padding: 0px;
+  margin: 0px;
+}
+
 .btn {
   background-color: black;
   color: goldenrod;
@@ -59,6 +76,17 @@
     font-size: 10px;
   }
 }
+.btnDoble {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  gap: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 .main {
   background-color: black;
   color: white;
@@ -68,6 +96,7 @@
   font-family: "Karla", sans-serif;
 }
 
+/* MAIN INDEX*/
 .promosExclu {
   display: flex;
   color: white;
@@ -113,6 +142,77 @@
     width: 100%;
   }
 }
+.videoRefe {
+  display: flex;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/*MAIN SERVICIOS*/
+.elegirnos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+.elegirnos > video {
+  overflow: hidden;
+  width: 80%;
+}
+
+@media (max-width: 450px) {
+  .elegirnos > video {
+    width: 100%;
+  }
+}
+.tipoServicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tipoServicio img {
+  width: 60%;
+  background-size: cover;
+  margin: 20px 0px;
+  overflow: hidden;
+}
+.tipoServicio p {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+}
+
+@media (max-width: 450px) {
+  .tipoServicio img {
+    width: 100%;
+  }
+}
+/*MAIN PRODUCTOS*/
+.buscar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+/*MAIN CONTACTOS*/
+.mapa {
+  width: 100%;
+  height: 100%;
+  border-style: 0;
+}
+
+.ubicacion h4 {
+  font-size: 15px;
+  font-family: "Karla", sans-serif;
+}
+
 .tarjetas {
   color: white;
   font-weight: bold;
@@ -157,14 +257,15 @@
     height: 280px;
   }
 }
-.videoRefe {
+.tarjetaServicios {
   display: flex;
-  margin: 15px;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 10px;
   justify-content: center;
-  align-items: center;
-  overflow: hidden;
 }
 
+/*TESTIMONIOS*/
 .testimonios {
   font-weight: bold;
   display: flex;
@@ -206,19 +307,6 @@
   font-family: "Karla", sans-serif;
 }
 
-.tarjetaTestimonioBootstrap {
-  background-color: white;
-  color: black;
-  overflow: hidden;
-  height: 60%;
-  font-family: "Karla", sans-serif;
-}
-.tarjetaTestimonioBootstrap > img {
-  height: 25%;
-  width: 25%;
-  background-size: cover;
-}
-
 .footer {
   background-color: black;
   color: white;
@@ -240,12 +328,6 @@
 
 .formulario > div > input {
   width: 40%;
-}
-
-.mapa {
-  width: 100%;
-  height: 100%;
-  border-style: 0;
 }
 
 .menu {
@@ -278,78 +360,5 @@
   border-width: 1px;
   text-decoration: none;
   color: white;
-  font-family: "Karla", sans-serif;
-}
-
-.elegirnos {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  gap: 20px;
-}
-.elegirnos > video {
-  overflow: hidden;
-  width: 80%;
-}
-
-@media (max-width: 450px) {
-  .elegirnos > video {
-    width: 100%;
-  }
-}
-.tipoServicio {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.tipoServicio img {
-  width: 60%;
-  background-size: cover;
-  margin: 20px 0px;
-  overflow: hidden;
-}
-.tipoServicio p {
-  display: block;
-  padding: 20px;
-  text-align: center;
-  font-family: "Karla", sans-serif;
-}
-
-@media (max-width: 450px) {
-  .tipoServicio img {
-    width: 100%;
-  }
-}
-.tarjetaServicios {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px;
-  gap: 10px;
-  justify-content: center;
-}
-
-.btnDoble {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 5px;
-  gap: 5px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.buscar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-}
-
-.ubicacion h4 {
-  font-size: 15px;
   font-family: "Karla", sans-serif;
 }/*# sourceMappingURL=style.css.map */

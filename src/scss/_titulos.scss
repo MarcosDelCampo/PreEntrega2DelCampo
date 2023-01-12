@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: $colorPrincipal;
     color: $colorTerciario;
     font-weight: bold;
     text-align: center;
@@ -16,4 +15,17 @@
     color: $colorTerciario;
     padding: 20px;
     font-family: 'Karla', sans-serif;
+}
+
+.tituloIndex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $colorTerciario;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    padding: 10px;
+    margin: 0px;
+    background-color: $colorPrincipal;
 }

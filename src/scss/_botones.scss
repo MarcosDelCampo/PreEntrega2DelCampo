@@ -1,0 +1,30 @@
+.btn {
+    background-color: $colorPrincipal;
+    color: $colorSecundario;
+    font-size: 15px;
+    border-style: solid;
+    border-color: $colorSecundario;
+    padding: 5px;
+    font-weight: bold;
+    width: 200px;
+    font-family: 'Karla', sans-serif;
+
+}
+
+@media (max-width: 350px) {
+    .btn {
+        width: 100%;
+        font-size: 10px;
+    }
+}
+
+.btnDoble {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
