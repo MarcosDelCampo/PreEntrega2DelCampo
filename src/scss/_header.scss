@@ -5,12 +5,9 @@
 .headerImg {
     height: 300px;
     object-fit: cover;
-}
-
-@media (max-with: 300px){
-    .headerImg {
-        height: 200px;
-    }
+    @media (max-with: 300px){
+            height: 200px;
+        }
 }
 
 .carousel{

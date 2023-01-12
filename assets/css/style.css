@@ -47,12 +47,12 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 @media (max-with: 300px) {
   .headerImg {
     height: 200px;
   }
 }
+
 .carousel {
   padding: 0px;
   margin: 0px;
@@ -69,13 +69,13 @@
   width: 200px;
   font-family: "Karla", sans-serif;
 }
-
 @media (max-width: 350px) {
   .btn {
     width: 100%;
     font-size: 10px;
   }
 }
+
 .btnDoble {
   display: flex;
   flex-direction: column;
@@ -101,13 +101,13 @@
   display: flex;
   color: white;
 }
-
 @media (max-width: 400px) {
   .promosExclu {
     flex-direction: column;
     align-items: center;
   }
 }
+
 .alquileres {
   display: flex;
   align-items: flex-start;
@@ -119,12 +119,12 @@
   padding: 15px;
   overflow: hidden;
 }
-
 @media (max-width: 400px) {
   .alquileres {
     width: 100%;
   }
 }
+
 .compras {
   display: flex;
   align-items: flex-start;
@@ -136,12 +136,12 @@
   padding: 15px;
   overflow: hidden;
 }
-
 @media (max-width: 400px) {
   .compras {
     width: 100%;
   }
 }
+
 .videoRefe {
   display: flex;
   margin: 15px;
@@ -163,12 +163,12 @@
   overflow: hidden;
   width: 80%;
 }
-
 @media (max-width: 450px) {
   .elegirnos > video {
     width: 100%;
   }
 }
+
 .tipoServicio {
   display: flex;
   flex-direction: column;
@@ -181,6 +181,11 @@
   margin: 20px 0px;
   overflow: hidden;
 }
+@media (max-width: 450px) {
+  .tipoServicio img {
+    width: 100%;
+  }
+}
 .tipoServicio p {
   display: block;
   padding: 20px;
@@ -188,11 +193,6 @@
   font-family: "Karla", sans-serif;
 }
 
-@media (max-width: 450px) {
-  .tipoServicio img {
-    width: 100%;
-  }
-}
 /*MAIN PRODUCTOS*/
 .buscar {
   display: flex;
@@ -221,12 +221,12 @@
   justify-content: center;
   align-items: center;
 }
-
 @media (max-width: 1200px) {
   .tarjetas {
     flex-wrap: wrap;
   }
 }
+
 .tarjetaProdu {
   width: 350px;
   height: 400px;
@@ -250,13 +250,13 @@
   background-color: black;
   font-family: "Karla", sans-serif;
 }
-
 @media (max-width: 450px) {
   .tarjetaProdu {
     width: 80%;
     height: 280px;
   }
 }
+
 .tarjetaServicios {
   display: flex;
   flex-wrap: wrap;
@@ -291,13 +291,13 @@
   background-size: cover;
   padding: 10px;
 }
-
 @media (max-width: 400px) {
   .tarjetaTestimonio {
     margin: 10px;
     width: 100%;
   }
 }
+
 .tarjetaTestimonioInfo {
   display: flex;
   flex-direction: column;

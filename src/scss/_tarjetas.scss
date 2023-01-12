@@ -5,12 +5,9 @@
     gap: 15px;
     justify-content: center;
     align-items: center;
-}
-
-@media (max-width: 1200px){
-    .tarjetas{
-        flex-wrap: wrap;
-    }
+    @media (max-width: 1200px){
+            flex-wrap: wrap;
+        }
 }
 
 .tarjetaProdu{
@@ -35,12 +32,9 @@
         background-color: $colorPrincipal;
         font-family: 'Karla', sans-serif;
     }
-}
-
-@media (max-width: 450px){
-    .tarjetaProdu{
-        width: 80%;
-        height: 280px;
+    @media (max-width: 450px){
+            width: 80%;
+            height: 280px;
     }
 }
 
@@ -73,19 +67,18 @@
     height: 200px;
     width: 300px;
     overflow: hidden;
-    > img {
-        width: 80px;
-        height: 80px;
-        background-size: cover;
-        padding: 10px;
-    }
+        > img {
+            width: 80px;
+            height: 80px;
+            background-size: cover;
+            padding: 10px;
+        }
+        @media (max-width: 400px){
+                margin: 10px;
+                width: 100%;
+        }
 }
-@media (max-width: 400px){
-    .tarjetaTestimonio{
-        margin: 10px;
-        width: 100%;
-    }
-}
+
 
 .tarjetaTestimonioInfo{
     display: flex;

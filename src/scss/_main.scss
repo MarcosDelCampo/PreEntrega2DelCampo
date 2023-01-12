@@ -11,13 +11,10 @@
 .promosExclu{
     display: flex;
     color: $colorTerciario;
-}
-
-@media (max-width: 400px){
-    .promosExclu{
-        flex-direction: column;
-        align-items: center;
-    }
+    @media (max-width: 400px){
+            flex-direction: column;
+            align-items: center;
+        }
 }
 
 .alquileres{
@@ -30,12 +27,9 @@
     background-size: cover;
     padding: 15px;
     overflow: hidden;
-}
-
-@media (max-width: 400px){
-    .alquileres{
-        width: 100%;
-    }
+    @media (max-width: 400px){
+            width: 100%;
+        }
 }
 
 .compras{
@@ -48,12 +42,9 @@
     background-size: cover;
     padding: 15px;
     overflow: hidden;
-}
-
-@media (max-width: 400px){
-    .compras{
-        width: 100%;
-    }
+    @media (max-width: 400px){
+            width: 100%;
+        }
 }
 
 .videoRefe{
@@ -75,13 +66,10 @@
         > video {
             overflow: hidden;
             width: 80%;
+            @media (max-width: 450px){
+                    width: 100%;
+            }
         }
-}
-
-@media (max-width: 450px){
-    .elegirnos > video {
-        width: 100%;
-    }
 }
 
 .tipoServicio{
@@ -93,7 +81,10 @@
             width:60%;
             background-size: cover;
             margin: 20px 0px;
-            overflow: hidden;
+            overflow: hidden; 
+        @media (max-width: 450px){
+                width: 100%;
+            }
         }
         p {
             display: block;
@@ -101,12 +92,6 @@
             text-align: center;
             font-family: 'Karla', sans-serif;
         }
-}
-
-@media (max-width: 450px){
-    .tipoServicio img{
-        width: 100%;
-    }
 }
 
 /*MAIN PRODUCTOS*/
