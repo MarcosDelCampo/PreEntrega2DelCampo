@@ -28,5 +28,9 @@
             text-decoration: none;
             color: $colorTerciario;
             font-family: 'Karla', sans-serif;
+            &:hover {
+                border-color: $colorSecundario;
+                color: $colorSecundario;
+                }
         }
 }
